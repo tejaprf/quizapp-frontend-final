@@ -1,0 +1,21 @@
+
+
+
+/* ProProfsQuiz.css */
+
+.iframe-container {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+iframe {
+  flex: 1;
+  border: 0;
+}
+
+.proprofs-link {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}

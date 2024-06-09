@@ -1,0 +1,60 @@
+
+  
+  .quiz-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .iframe-container {
+    text-align: center;
+    background-color: #F3E9F5; /* Container background color from the image */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80vw;
+    height: 76vh;
+  }
+  
+  .quiz-header {
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #ff5e5e; /* Highlight color for 'Password' */
+  }
+  
+  .user-info {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .quiz-container {
+    /* background-color: #e9e3ff; Light purple color for quiz interface */
+    /* padding: 40px; */
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .quiz-interface {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .quiz-footer {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .quiz-footer .points {
+    font-size: 24px;
+    color: #ff5e5e; /* Points color */
+  }
+  
+  .quiz-interface iframe{
+    width:100%;
+    height:70dvh;
+  }

@@ -1,0 +1,16 @@
+.screen5-container {
+    background-color: #f3e5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .finish-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8e24aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,143 @@
+.screen1-container {
+  background-color: #ffffff;
+  /* padding: 20px; */
+  text-align: center;
+  /* display: flex; */
+  align-items: center; /* Align items vertically in the center */
+    width: 100%; /* Set the container width to 100% of its parent */
+   /* Ensure the container doesn't exceed the viewport width */
+
+}
+
+.screen1-container img {
+  width: 100%; /* Ensure image doesn't exceed container width */
+  height: 100%; /* Allow image to adjust its height proportionally */
+}
+
+.screen1-container {
+  /* Remove fixed height and let it adjust based on the image */
+  height: auto; 
+}
+
+
+.form-group-group {
+  margin: 0;
+  margin-bottom: 4vh;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group-group #subject,textarea {
+  width: 73vw;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-group-group input{
+  width: 35vw;
+  text-align: center;
+  height: 40px;
+  border: 1px solid #ccc;
+}
+
+
+
+.content {
+  height: 600px;
+  margin: 50px;
+  padding-top: 50px;
+  border:1px solid purple;
+  border-radius: 20px;
+}
+
+.content h3{
+  font-size: 42px;
+  margin-bottom: 50px;
+  color: #885bda;
+}
+
+.content p{
+  color: #885bda;
+}
+
+.screen1-container .youtube{
+  position: absolute;
+  top:350px;
+  right:5vw;
+  height: 10px;
+  display: block;
+}
+
+.screen1-container iframe{
+  width: 30vw;
+  height: 30vh;
+}
+
+.nurture{
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 10vw 0 10vw;
+}
+
+.nurture div{
+  width: 15vw;
+  height: 15vw;
+  position: relative;
+  background-color: #F3E9F5;
+  top: -62vh;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nurture span{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #710A85;
+}
+
+.nurture div:hover{
+  background-color: #B2F5EE;
+}
+
+.nurture div:hover span{
+  margin-top: 8vw;
+  color: black;
+}
+
+
+/* Good Digital Habits */
+
+
+
+
+
+
