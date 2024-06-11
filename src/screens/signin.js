@@ -61,10 +61,10 @@ const navigate=useNavigate();
                           style={
                               {
                                   display: "inline",
-                                  width: "5vw",
-                                  height: "5vw",
-                                  top:'10px',
-                                  left:'20px',
+                                  width: "80px",
+                                  height: "80px",
+                                  top:'4px',
+                                  left:'40px',
                                   position:'absolute'
                               }
                           }/>
