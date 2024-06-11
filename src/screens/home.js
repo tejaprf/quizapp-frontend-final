@@ -279,6 +279,8 @@ const DigitalHeroZone = () => {
                     <div className="current-status">
                         <div className="status-image">
                             <img src={image}/>
+                            <p style={{position:'relative',top:'-25px'}}>Save the Library of Wisdom</p>
+
                         </div>
                     </div>
                     <div>
