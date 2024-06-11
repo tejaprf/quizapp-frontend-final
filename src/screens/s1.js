@@ -69,12 +69,14 @@ const Screen1 = () => {
         <button className='signInButton' style={{backgroundColor:'transparent',color:'white',position:'absolute',top:'15px',left:'25vw'}}>Quiz Packages</button>
         </Link>
     <img src={part1} alt="Background Image"/>
+    <div style={{position:'relative'}}>
     <img src={part2} alt="Background Image"/>
     <div className='nurture'>
       <div><span>Good Digital Habits</span></div>
       <div><span>Avoid Digital Risk</span></div>
       <div><span>Use Technology but responsibly</span></div>
       <div><span>Tips and Tricks</span></div>
+    </div>
     </div>
     <img src={part3} alt="Background Image"/>
     <img src={part4} alt="Background Image"/>
