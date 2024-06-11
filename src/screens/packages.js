@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/packages.css'; // Ensure you create the corresponding CSS file
 import avatar from '../avatar.png'
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 
 const DigitalLiteracyPrograms = () => {
+    const navigate=useNavigate();
     return (
         <div className="digital-literacy-container">
             <div style={{display:'flex',justifyContent:'space-around'}}>
-            <img src={avatar} style={{display:"inline", width:"5vw",height:"5vw"}}/>
+            <img src={avatar} style={{display:"inline", width:"5vw",height:"5vw"}} onClick={()=>navigate('/')}/>
             <header className="header">
                 <h1>Unlock Expert Digital Literacy at Unbeatable Prices</h1>
                 <h2>Start Safeguarding Your Child's Future Today!</h2>
