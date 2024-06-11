@@ -132,19 +132,19 @@ const Screen2 = () => {
 
     return (
         <div className='page-container'>
-              <Link to="/">
-              <img src={avatar}
-                                style={
-                                    {
-                                        display: "inline",
-                                        width: "5vw",
-                                        height: "5vw",
-                                        top:'10px',
-                                        left:'20px',
-                                        position:'absolute'
-                                    }
-                                }/>
-            </Link>
+      <Link to="/">
+        <img src={avatar}
+                          style={
+                              {
+                                  display: "inline",
+                                  width: "80px",
+                                  height: "80px",
+                                  top:'4px',
+                                  left:'40px',
+                                  position:'absolute'
+                              }
+                          }/>
+      </Link>
             <Link to="/SignIn">
                 <button className='signInButton' style={{position:'fixed',top:'10px',right:'30px'}}>Sign In</button>
             </Link>
