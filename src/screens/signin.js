@@ -42,7 +42,7 @@ const navigate=useNavigate();
       if(isSigned.data.message==='Login successful')
       {
         setGlobalState({...globalState,email:formData.email,isAuthenticated:true});
-        alert('Login Successfull');
+        //alert('Login Successfull');
         navigate('/home');
       }else if(isSigned.data.message==='User does not exist'){
         alert('User does not exists. Please signup.');
