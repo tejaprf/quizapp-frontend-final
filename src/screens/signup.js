@@ -282,14 +282,14 @@ const Screen2 = () => {
                                         (e) => moveToNext(e, 'sign-up')
                                     }/>
                             </div>
-                      <div style={{display:'flex',margin:'10px'}}>
+                      <div style={{display:'flex',gap:'10px'}}>
                       < input type = "checkbox" id = "acceptTermsCheckbox" checked = {isChecked} onChange = {handleCheckboxChange }/>
                       <span>I accept the terms and conditions </span > 
                       </div>
                       {!isChecked && <p className="error">Please accept terms and conditions to proceed</p>}
 
 
-                            <div className='form-group-button'>
+                            <div className='form-group-button' style={{marginTop:'20px'}}>
                                 {/* Display "Sign Up" button for the second part */}
                                 <button id="prev"
                                     onClick={handleSubmitPrev}>Prev</button>
